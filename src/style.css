@@ -1,0 +1,12 @@
+@import url('./index.css');
+
+.row-elements {
+    display: flex;
+    align-items: center;
+}
+.row-elements > * {
+    margin: 0 8px;
+}
+input, button, select {
+    outline: none;
+}
